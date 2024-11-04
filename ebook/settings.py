@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'ebooksite',
         'USER': 'drathor',
         'PASSWORD': 'Deepak@123',
-        'HOST': '172.20.10.12',
+        'HOST': '172.20.10.13',
         'PORT': '3306',
     }
 }
