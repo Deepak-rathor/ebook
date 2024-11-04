@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<title>Book List </title>
+{% extends "basicapp/header.html" %}
+{% block "body_block" %}
+
+    <div class="container mt-5">
+        <h2 class="text-center">{% if category %}{{ category.name }} {% endif %}Books</h2>
+        <ul class="list-group">
+            {% for book in books %}
+                <li class="list-group-item">
+                    <strong>{{ book.title }}</strong> by {{ book.author }} (Published on {{ book.published_date }})
+                </li>
+            {% empty %}
+                <li class="list-group-item">No books available in this category.</li>
+            {% endfor %}
+        </ul>
+        <div class="text-center mt-3">
+            <a href="{% url 'book_list_all' %}" class="btn btn-secondary">View All Books</a>
+        </div>
+    </div>
+
+
+{% endblock %}

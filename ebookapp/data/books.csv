@@ -1,0 +1,12 @@
+id,title,author,published_date,category_id,subcategory_id,description
+101,To Kill a Mockingbird, Harper Lee,1813-01-01,1,1001, A powerful story of racial injustice and childhood innocence in the American South.
+102,The Catcher in the Rye, J.D. Salinger,1813-01-02,1,1002, A novel about teenage rebellion and angst
+103,Sapiens: A Brief History of Humankind, Yuval Noah Harari,1813-01-03,2,1003, An exploration of the history of our species
+104,Educated, Tara Westover,1813-01-04,2,1004, A memoir about growing up in a strict and abusive household in rural Idaho and the transformative power of education.
+105,Pride and Prejudice, Jane Austen,1813-01-05,3,1005, A classic romantic novel about the turbulent relationship between Elizabeth Bennet and Mr. Darcy.
+106,Outlander, Diana Gabaldon,1813-01-06,3,1006, A time-travel romance where a WWII nurse finds herself in 18th-century Scotland.
+107,Dune, Frank Herbert,1813-01-07,4,1007, A science fiction epic set on the desert planet Arrakis
+108,Neuromancer, William Gibson,1813-01-08,4,1008, A seminal cyberpunk novel that follows a washed-up computer hacker hired for one last job.
+109,The Girl with the Dragon Tattoo, Stieg Larsson,1813-01-09,5,1009, A gripping mystery featuring journalist Mikael Blomkvist and hacker Lisbeth Salander as they investigate a decades-old disappearance.
+110,Gone Girl, Gillian Flynn,1813-01-10,5,1010, A psychological thriller about the mysterious disappearance of Amy Dunne and the ensuing media frenzy.
+,,,,,,

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<title>Category</title>
+{% extends "basicapp/header.html" %}
+{% block "body_block" %}
+    
+    <div class="container mt-5">
+        <h2 class="text-center">Book Categories</h2>
+    
+        <ul class="list-group">
+            {% for category in categories %}
+                <li class="list-group-item">
+                    <a href="{% url 'book_list_category' category.id %}">{{ category.name }}</a>
+                    <ul class="list-group mt-2">
+                        {% for subcategory in category.subcategories.all %}
+                            <li class="list-group-item">
+                                <a href="{% url 'book_list_subcategory' subcategory.id %}">{{ subcategory.name }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+{% endblock %}
